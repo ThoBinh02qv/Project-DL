@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  scroll-behavior: smooth;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -605,10 +610,6 @@ body {
 .note-cta {
   margin-top: 130px;
   background: #def6f5;
-  width: 1440px;
-  padding: 76px 289px 87px 135px;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .note-cta h2 {
@@ -626,8 +627,12 @@ body {
 
 .note-cta .row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  padding: 79px 0px 87px 0px;
+}
+
+.note-cta .row .btn {
+  margin-left: 410px;
 }
 
 /*======== footer ==========  */
